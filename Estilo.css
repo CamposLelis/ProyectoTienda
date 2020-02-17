@@ -1,49 +1,9 @@
-body{
-	background: blue;	
+.cabecera {
+    width: 100%;
+    height: 300px;
 }
 
-.banner{
-	width: 80%;
-	height: 150px;
-	border: 3px solid red;
-	margin: auto;
-		
-	background-size: 100% 100%;
-	
-	animation-name: banner;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	
-}
-@keyframes banner{
-	0%, 30%{
-		background-image: url(Imagenes/img1.jpg);
-		opacity: 1;
-	}
-	31%, 34%{
-		opacity: 0,1;
-	}
-	35%, 65%{
-		background-image: url(Imagenes/img2.jpg);
-		opacity: 1;
-	}
-	66%, 69%{
-		opacity: 0,1;
-	}
-	70%, 100%{
-		opacity: 1;
-		background-image: url(Imagenes/img3.jpg);
-	}
-}
-
-.tabla{
-	width: 80px;
-	height: 80px;
-	border: 2px solid blue;
-	margin-left: 60px;
-	
-	background-image: url(Imagenes/img1.jpg);
-	background-size: 100% 100%;
-		
+.cabecera img {
+    width: 100%;
+    height: 300px;
 }
